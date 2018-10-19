@@ -6,7 +6,7 @@ public class MathOperations {
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
-        System.out.println("Please input two numbers: ");
+        System.out.println("Please type in two numbers: ");
 
         int firstNum = s.nextInt();
         int secondNum = s.nextInt();
