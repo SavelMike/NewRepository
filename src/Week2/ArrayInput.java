@@ -10,12 +10,12 @@ public class ArrayInput {
         Scanner in = new Scanner(System.in);
 
         // Initializing the length of an Array
-        final int LENGTH = 100;
+        final int LENGTH = 10;
         double[] inputs = new double[LENGTH];
         int currentSize = 0;
 
         // Reading of input numbers
-        System.out.println("Enter a sequence of values, press Q to stop");
+        System.out.println("Enter a sequence of values, press litter or symbol to stop");
         while (in.hasNextDouble()) {
             // Grow the array if it has been completely filled
             if (currentSize >= inputs.length) {
@@ -30,5 +30,5 @@ public class ArrayInput {
 
         // Printing the array
         System.out.print(Arrays.toString(inputs));
-        }
     }
+}
